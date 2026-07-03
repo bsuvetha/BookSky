@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book.css">
+    <title>Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="nav">
+        <h1>BookSky</h1>
+    </div>
+    <div class="cont">
+        <div class="book-cont">
+            <h2>Rich Dad poor Dad</h2>
+            <h5>Robert T. Kiyosaki</h5>
+            <p> A personal finance book that explains the difference between assets and liabilities and encourages
+                building wealth through financial education.
+            </p>
+            <button class="btn" onclick="btn(event)">Delete</button>
+        </div>
+    </div>
+    <button class="bn" id="apopup">+</button>
+    <div class="over"></div>
+    <div class="poppup-box">
+        <h2 class="he">Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="btitle">
+            <input type="text" placeholder="Book Author" id="bauthor">
+            <textarea placeholder="Short Description" id="sd"></textarea>
+            <button id="abtn">Add</button>
+            <button id="cbtn">Cancel</button>
+        </form>
+    </div>
+    <script src="book.js"></script>
+
+</body>
+
+</html>
